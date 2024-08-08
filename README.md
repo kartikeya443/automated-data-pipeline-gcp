@@ -3,6 +3,9 @@
 ## Introduction
 This project demonstrates the integration of several GCP services to create an efficient and automated data pipeline for sales data. We'll leverage various tools for building an ETL pipeline, data warehousing, data visualization, and managing data throughout the process.
 
+## Architecture
+![Project Architecture](images/archi_sales.png)
+
 ## Overview
 
 1. **Web Portal**: Developed using Python Flask to facilitate user uploads of sales data files.
@@ -10,9 +13,6 @@ This project demonstrates the integration of several GCP services to create an e
 3. **Cloud Function**: Automatically activated upon file upload to the GCS bucket, extracts data, and loads it into BigQuery.
 4. **ETL Process**: Implemented an Extract, Transform, Load (ETL) process to manage data from raw uploads to a refined state.
 5. **Reporting**: Created summary views and dashboards in Looker Studio for key metrics, featuring filtering and drill-down options.
-
-## Architecture
-![Project Architecture](images/archi_sales.png)
 
 ## Technology Used
 1. Programming Language - Python
